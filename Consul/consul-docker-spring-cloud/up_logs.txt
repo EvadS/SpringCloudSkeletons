@@ -110,3 +110,10 @@ true
 2019-12-13 12:15:54.780  INFO 18512 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_22
 2019-12-13 12:15:54.815  INFO 18512 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2019-12-13 12:15:54.862  INFO 18512 --- [           main] e.app.exampleapp.ExampleAppApplication   : Started ExampleAppApplication in 5.018 seconds (JVM running for 5.372)
+2019-12-13 12:54:39.654  INFO 18512 --- [extShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'catalogWatchTaskScheduler'
+2019-12-13 12:54:39.654  INFO 18512 --- [extShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'configWatchTaskScheduler'
+2019-12-13 12:54:39.654  INFO 18512 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-13 12:54:39.657  INFO 18512 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-13 12:54:39.659  INFO 18512 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-13 12:54:39.663  INFO 18512 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+Makefile:12: recipe for target 'run' failed
